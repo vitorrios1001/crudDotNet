@@ -36,9 +36,17 @@ namespace CadastroCliente.Controllers
 
             var listaClientes = new List<ClienteModel>();
 
-            
-
-
+            listaClientes.Add(new ClienteModel
+            {
+                ID = 1,
+                Nome = "Vitor",
+                Bairro = "Sul",
+                CEP = "75400000",
+                Cidade = "Inhumas",
+                Endereco = "Rua 02",
+                Uf = "GO",
+                Status = true
+            });
 
             return listaClientes;
         }
