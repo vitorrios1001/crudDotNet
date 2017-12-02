@@ -1,0 +1,10 @@
+/home/vitor/RiderProjects/CadastroCliente/CadastroCliente/bin/Debug/netcoreapp2.0/CadastroCliente.deps.json
+/home/vitor/RiderProjects/CadastroCliente/CadastroCliente/bin/Debug/netcoreapp2.0/CadastroCliente.runtimeconfig.json
+/home/vitor/RiderProjects/CadastroCliente/CadastroCliente/bin/Debug/netcoreapp2.0/CadastroCliente.runtimeconfig.dev.json
+/home/vitor/RiderProjects/CadastroCliente/CadastroCliente/bin/Debug/netcoreapp2.0/CadastroCliente.dll
+/home/vitor/RiderProjects/CadastroCliente/CadastroCliente/bin/Debug/netcoreapp2.0/CadastroCliente.pdb
+/home/vitor/RiderProjects/CadastroCliente/CadastroCliente/obj/Debug/netcoreapp2.0/CadastroCliente.csproj.CoreCompileInputs.cache
+/home/vitor/RiderProjects/CadastroCliente/CadastroCliente/obj/Debug/netcoreapp2.0/CadastroCliente.AssemblyInfoInputs.cache
+/home/vitor/RiderProjects/CadastroCliente/CadastroCliente/obj/Debug/netcoreapp2.0/CadastroCliente.AssemblyInfo.cs
+/home/vitor/RiderProjects/CadastroCliente/CadastroCliente/obj/Debug/netcoreapp2.0/CadastroCliente.dll
+/home/vitor/RiderProjects/CadastroCliente/CadastroCliente/obj/Debug/netcoreapp2.0/CadastroCliente.pdb

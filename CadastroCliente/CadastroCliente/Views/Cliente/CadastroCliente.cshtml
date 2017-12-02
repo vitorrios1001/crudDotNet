@@ -1,0 +1,33 @@
+﻿@model ClienteModel
+
+@{
+    Layout = "_Layout";
+}
+
+<h2>Cadastro de Cliente</h2>
+
+<div>
+    <form asp-controller="Cliente" asp-action="InserirNovo" method="post" >
+        <div>
+            Nome:
+            <input asp-for="Nome"  /><br/>
+            CEP:
+            <input asp-for="CEP" /><br/>
+            Endereço:
+            <input asp-for="Endereco" /><br/>
+            Bairro:
+            <input asp-for="Bairro" /><br/>
+            Cidade:
+            <input asp-for="Cidade" /><br/>
+            UF:
+            <input asp-for="Uf" /><br/>
+            Status:
+            <input asp-for="Status" /><br/>
+        </div>
+        <button type="submit">Salvar</button>
+        
+    </form>
+    
+    
+    
+</div>
