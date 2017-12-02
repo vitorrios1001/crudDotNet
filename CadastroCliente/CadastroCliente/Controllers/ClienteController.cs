@@ -14,6 +14,8 @@ namespace CadastroCliente.Controllers
 
         public IActionResult ListaClientes()
         {
+            ViewBag.ListaClientes = RetornaListaClientes();
+            
             return View();
         }
 
@@ -25,9 +27,7 @@ namespace CadastroCliente.Controllers
         [HttpPost]
         public IActionResult InserirNovo(ClienteModel cliente)
         {
-
-
-
+            
             return View("ListaClientes");
         }
 
@@ -36,7 +36,7 @@ namespace CadastroCliente.Controllers
 
             var listaClientes = new List<ClienteModel>();
 
-
+            
 
 
 

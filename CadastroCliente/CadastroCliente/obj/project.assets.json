@@ -12538,11 +12538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/vitor/RiderProjects/CadastroCliente/CadastroCliente/CadastroCliente.csproj",
+      "projectUniqueName": "/home/vitor/projetosDosGit/crudDotNet/CadastroCliente/CadastroCliente/CadastroCliente.csproj",
       "projectName": "CadastroCliente",
-      "projectPath": "/home/vitor/RiderProjects/CadastroCliente/CadastroCliente/CadastroCliente.csproj",
+      "projectPath": "/home/vitor/projetosDosGit/crudDotNet/CadastroCliente/CadastroCliente/CadastroCliente.csproj",
       "packagesPath": "/home/vitor/.nuget/packages/",
-      "outputPath": "/home/vitor/RiderProjects/CadastroCliente/CadastroCliente/obj/",
+      "outputPath": "/home/vitor/projetosDosGit/crudDotNet/CadastroCliente/CadastroCliente/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/vitor/.config/NuGet/NuGet.Config"

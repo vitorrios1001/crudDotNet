@@ -1,6 +1,41 @@
 ﻿
 @{
     Layout = "_Layout";
+    var listaClientes = (List<ClienteModel>) ViewBag.ListaClientes;
 }
 
 <h2>Lista de Clientes</h2>
+
+
+<div>
+    <table class="table table-hover table-condensed">
+        <th>
+            <tr>
+                <td>ID</td>
+                <td>Nome</td>
+                <td>CEP</td>
+                <td>Endereço</td>
+                <td>Bairro</td>
+                <td>Cidade</td>
+                <td>UF</td>
+                <td>Status</td>
+            </tr>
+        </th>
+        <tbody>
+            @foreach (var cliente in listaClientes)
+            {
+                <tr>
+                    <td>@cliente.ID</td>
+                    <td>@cliente.Nome</td>
+                    <td>@cliente.CEP</td>
+                    <td>@cliente.Endereco</td>
+                    <td>@cliente.Bairro</td>
+                    <td>@cliente.Cidade</td>
+                    <td>@cliente.Uf</td>
+                    <td>@cliente.Status</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
