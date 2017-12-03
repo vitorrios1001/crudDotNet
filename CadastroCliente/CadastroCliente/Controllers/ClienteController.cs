@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using CadastroCliente.Data;
 using CadastroCliente.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,7 +26,9 @@ namespace CadastroCliente.Controllers
         }
         
         [HttpPost]
-        public IActionResult InserirNovo(ClienteModel cliente)
+        [ValidateAntiForgeryToken]
+        public IActionResult InserirNovo(
+            [Bind("Nome,Endereco,Bairro,CEP,Cidade,Uf,Status")]ClienteModel cliente)
         {
             
             

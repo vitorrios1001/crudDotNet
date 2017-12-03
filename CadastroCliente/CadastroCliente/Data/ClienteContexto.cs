@@ -7,7 +7,6 @@ namespace CadastroCliente.Data
     public class ClienteContexto : DbContext
     {
 
-
         public ClienteContexto(DbContextOptions<ClienteContexto> options) : base(options)
         {
         }

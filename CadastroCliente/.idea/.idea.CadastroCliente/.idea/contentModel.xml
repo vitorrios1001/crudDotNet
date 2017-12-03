@@ -25,6 +25,7 @@
         </e>
         <e p="Data" t="Include">
           <e p="ClienteContexto.cs" t="Include" />
+          <e p="InicializaDB.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="ClienteModel.cs" t="Include" />
