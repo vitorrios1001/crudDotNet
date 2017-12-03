@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClienteContexto.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ClienteContexto.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CadastroCliente/Data/ClienteContexto.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="64" lean-forward="false" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+            <state relative-caret-position="168">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <marker date="1512261586410" expanded="true" signature="6:80" ph="..." />
                 <marker date="1512261586410" expanded="true" signature="112:525" ph="{...}" />
@@ -48,21 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CadastroCliente/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="308">
+              <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
               <folding>
-                <marker date="1512262504960" expanded="false" signature="6:323" ph="..." />
-                <marker date="1512262504960" expanded="true" signature="350:1663" ph="{...}" />
-                <marker date="1512262504960" expanded="true" signature="377:1661" ph="{...}" />
-                <marker date="1512262504960" expanded="true" signature="436:499" ph="{...}" />
-                <marker date="1512262504960" expanded="true" signature="722:990" ph="{...}" />
-                <marker date="1512262504960" expanded="true" signature="1178:1655" ph="{...}" />
-                <marker date="1512262504960" expanded="true" signature="1225:1302" ph="{...}" />
-                <marker date="1512262504960" expanded="true" signature="1319:1403" ph="{...}" />
-                <marker date="1512262504960" expanded="true" signature="1472:1643" ph="{...}" />
+                <marker date="1512263896631" expanded="false" signature="6:323" ph="..." />
+                <marker date="1512263896631" expanded="true" signature="350:1651" ph="{...}" />
+                <marker date="1512263896631" expanded="true" signature="377:1649" ph="{...}" />
+                <marker date="1512263896631" expanded="true" signature="436:499" ph="{...}" />
+                <marker date="1512263896631" expanded="true" signature="722:978" ph="{...}" />
+                <marker date="1512263896631" expanded="true" signature="1166:1643" ph="{...}" />
+                <marker date="1512263896631" expanded="true" signature="1213:1290" ph="{...}" />
+                <marker date="1512263896631" expanded="true" signature="1307:1391" ph="{...}" />
+                <marker date="1512263896631" expanded="true" signature="1460:1631" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -134,6 +134,7 @@
     <setting file="file://$PROJECT_DIR$/CadastroCliente/Data/ClienteContexto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/CadastroCliente.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CadastroCliente/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CadastroCliente/Models/ClienteModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CadastroCliente/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CadastroCliente/Controllers/ClienteController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -151,6 +152,7 @@
         <option value="$PROJECT_DIR$/CadastroCliente/Data/ClienteContexto.cse.cs" />
         <option value="$PROJECT_DIR$/CadastroCliente/Data/ClienteContexto.cs" />
         <option value="$PROJECT_DIR$/CadastroCliente/Startup.cs" />
+        <option value="$PROJECT_DIR$/CadastroCliente/appsettings.json" />
       </list>
     </option>
   </component>
@@ -217,7 +219,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -262,12 +264,12 @@
       <updated>1512156067014</updated>
       <workItem from="1512156068485" duration="2091000" />
       <workItem from="1512244143257" duration="3367000" />
-      <workItem from="1512253285768" duration="7780000" />
+      <workItem from="1512253285768" duration="9698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13238000" />
+    <option name="totallyTimeSpent" value="15156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,8 +291,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24943139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42772862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18119788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -493,19 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CadastroCliente/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512156079871" expanded="false" signature="6:255" ph="..." />
-            <marker date="1512156079871" expanded="true" signature="282:603" ph="{...}" />
-            <marker date="1512156079871" expanded="true" signature="309:601" ph="{...}" />
-            <marker date="1512156079871" expanded="true" signature="362:420" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CadastroCliente/Data/ClienteContexto.cse.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -533,34 +522,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CadastroCliente/Data/ClienteContexto.cs">
+    <entry file="file://$PROJECT_DIR$/CadastroCliente/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="64" lean-forward="false" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512261586410" expanded="true" signature="6:80" ph="..." />
-            <marker date="1512261586410" expanded="true" signature="112:525" ph="{...}" />
-            <marker date="1512261586410" expanded="true" signature="159:523" ph="{...}" />
-            <marker date="1512261586410" expanded="true" signature="257:277" ph="{...}" />
-            <marker date="1512261586410" expanded="true" signature="420:508" ph="{...}" />
+            <marker date="1512156079871" expanded="false" signature="6:255" ph="..." />
+            <marker date="1512156079871" expanded="true" signature="282:603" ph="{...}" />
+            <marker date="1512156079871" expanded="true" signature="309:601" ph="{...}" />
+            <marker date="1512156079871" expanded="true" signature="362:420" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CadastroCliente/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="101" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="101" />
+          <folding>
+            <marker date="1512264202071" expanded="true" signature="25:133" ph="{...}" />
+            <marker date="1512264202071" expanded="true" signature="148:232" ph="{...}" />
+            <marker date="1512264202071" expanded="true" signature="194:228" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CadastroCliente/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="308">
+          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
           <folding>
-            <marker date="1512262504960" expanded="false" signature="6:323" ph="..." />
-            <marker date="1512262504960" expanded="true" signature="350:1663" ph="{...}" />
-            <marker date="1512262504960" expanded="true" signature="377:1661" ph="{...}" />
-            <marker date="1512262504960" expanded="true" signature="436:499" ph="{...}" />
-            <marker date="1512262504960" expanded="true" signature="722:990" ph="{...}" />
-            <marker date="1512262504960" expanded="true" signature="1178:1655" ph="{...}" />
-            <marker date="1512262504960" expanded="true" signature="1225:1302" ph="{...}" />
-            <marker date="1512262504960" expanded="true" signature="1319:1403" ph="{...}" />
-            <marker date="1512262504960" expanded="true" signature="1472:1643" ph="{...}" />
+            <marker date="1512263896631" expanded="false" signature="6:323" ph="..." />
+            <marker date="1512263896631" expanded="true" signature="350:1651" ph="{...}" />
+            <marker date="1512263896631" expanded="true" signature="377:1649" ph="{...}" />
+            <marker date="1512263896631" expanded="true" signature="436:499" ph="{...}" />
+            <marker date="1512263896631" expanded="true" signature="722:978" ph="{...}" />
+            <marker date="1512263896631" expanded="true" signature="1166:1643" ph="{...}" />
+            <marker date="1512263896631" expanded="true" signature="1213:1290" ph="{...}" />
+            <marker date="1512263896631" expanded="true" signature="1307:1391" ph="{...}" />
+            <marker date="1512263896631" expanded="true" signature="1460:1631" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CadastroCliente/Data/ClienteContexto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <marker date="1512261586410" expanded="true" signature="6:80" ph="..." />
+            <marker date="1512261586410" expanded="true" signature="112:525" ph="{...}" />
+            <marker date="1512261586410" expanded="true" signature="159:523" ph="{...}" />
+            <marker date="1512261586410" expanded="true" signature="257:277" ph="{...}" />
+            <marker date="1512261586410" expanded="true" signature="420:508" ph="{...}" />
           </folding>
         </state>
       </provider>
