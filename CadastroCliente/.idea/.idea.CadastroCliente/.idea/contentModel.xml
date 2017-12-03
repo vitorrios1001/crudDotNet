@@ -10,6 +10,9 @@
           <e p="ClienteController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
         </e>
+        <e p="Data" t="Include">
+          <e p="ClienteContexto.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="ClienteModel.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />

@@ -12,30 +12,35 @@ namespace CadastroCliente.Controllers
             return View();
         }
 
-        public IActionResult ListaClientes()
+        public IActionResult ListaClientes(ClienteModel cliente)
         {
-            ViewBag.ListaClientes = RetornaListaClientes();
+            ViewBag.ListaClientes = RetornaListaClientes(cliente);
             
             return View();
         }
 
         public IActionResult CadastroCliente()
         {
-            return View();
+            return View(new ClienteModel());
         }
         
         [HttpPost]
         public IActionResult InserirNovo(ClienteModel cliente)
         {
             
-            return View("ListaClientes");
+            
+            
+            
+            
+            return RedirectToAction("ListaClientes",cliente);
         }
-
-        public List<ClienteModel> RetornaListaClientes()//Função que retorna a lista de clientes
+        
+        
+        public List<ClienteModel> RetornaListaClientes(ClienteModel cliente)//Função que retorna a lista de clientes
         {
 
             var listaClientes = new List<ClienteModel>();
-
+            
             listaClientes.Add(new ClienteModel
             {
                 ID = 1,
@@ -47,7 +52,12 @@ namespace CadastroCliente.Controllers
                 Uf = "GO",
                 Status = true
             });
-
+            
+            if (cliente.ID != 0)
+            {
+                listaClientes.Add(cliente);
+            }
+            
             return listaClientes;
         }
         

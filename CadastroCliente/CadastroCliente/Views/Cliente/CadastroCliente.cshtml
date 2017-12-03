@@ -6,23 +6,25 @@
 
 <h2>Cadastro de Cliente</h2>
 
-<div>
+<div class="container">
     <form asp-controller="Cliente" asp-action="InserirNovo" method="post" >
         <div>
+            Codigo:
+            <input asp-for="ID"/><br/>
             Nome:
-            <input asp-for="Nome"  /><br/>
+            <input asp-for="Nome"/><br/>
             CEP:
-            <input asp-for="CEP" /><br/>
+            <input asp-for="CEP"/><br/>
             Endereço:
-            <input asp-for="Endereco" /><br/>
+            <input asp-for="Endereco"/><br/>
             Bairro:
-            <input asp-for="Bairro" /><br/>
+            <input asp-for="Bairro"/><br/>
             Cidade:
-            <input asp-for="Cidade" /><br/>
+            <input asp-for="Cidade"/><br/>
             UF:
-            <input asp-for="Uf" /><br/>
+            <input asp-for="Uf"/><br/>
             Status:
-            <input asp-for="Status" /><br/>
+            <input asp-for="Status"/><br/>
         </div>
         <a asp-controller="Cliente" asp-action="ListaClientes" class="btn btn-primary" >Voltar</a>
         <button  type="submit" class="btn btn-sussec" >Salvar</button>
