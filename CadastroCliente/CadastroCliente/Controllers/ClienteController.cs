@@ -1,21 +1,29 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 using CadastroCliente.Data;
 using CadastroCliente.Models;
 using Microsoft.AspNetCore.Mvc;
+using Remotion.Linq.Clauses;
 
 namespace CadastroCliente.Controllers
 {
     public class ClienteController : Controller
     {
+
+        private ClienteContexto clienteContexto;
+        
+        
         // GET
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult ListaClientes(ClienteModel cliente)
+        public IActionResult ListaClientes()
         {
-            ViewBag.ListaClientes = RetornaListaClientes(cliente);
+            ViewBag.ListaClientes = RetornaListaClientes();
             
             return View();
         }
@@ -24,6 +32,8 @@ namespace CadastroCliente.Controllers
         {
             return View(new ClienteModel());
         }
+
+    
         
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -34,16 +44,21 @@ namespace CadastroCliente.Controllers
             
             
             
-            
             return RedirectToAction("ListaClientes",cliente);
         }
         
         
-        public List<ClienteModel> RetornaListaClientes(ClienteModel cliente)//Função que retorna a lista de clientes
+        public List<ClienteModel> RetornaListaClientes()//Função que retorna a lista de clientes
         {
-
-            var listaClientes = new List<ClienteModel>();
             
+            var listaClientes = new List<ClienteModel>();
+
+            var clientes = clienteContexto.Clientes.an
+            
+            
+            
+            
+            /*
             listaClientes.Add(new ClienteModel
             {
                 ID = 1,
@@ -60,6 +75,8 @@ namespace CadastroCliente.Controllers
             {
                 listaClientes.Add(cliente);
             }
+            */
+            
             
             return listaClientes;
         }

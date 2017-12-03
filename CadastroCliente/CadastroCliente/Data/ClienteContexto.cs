@@ -15,8 +15,10 @@ namespace CadastroCliente.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<ClienteModel>().ToTable("Cliente");
+            modelBuilder.Entity<ClienteModel>().ToTable("Clientes");
         }
+        
+        
         
     }
 }
