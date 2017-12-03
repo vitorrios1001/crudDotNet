@@ -10,11 +10,7 @@ namespace CadastroCliente.Models
         private ClienteContexto _clienteContexto;
 
 
-        public ClienteRepositorio()
-        {
-            _clienteContexto = new ClienteContexto();
-        }
-
+        
 
 
 

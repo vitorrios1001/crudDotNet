@@ -15,7 +15,7 @@ namespace CadastroCliente.Data
             {
                 return;  
             }
-            /*
+            
             var clientes = new ClienteModel[]
             {
                 new ClienteModel
@@ -46,7 +46,7 @@ namespace CadastroCliente.Data
             {
                 contexo.Clientes.Add(cliente);
             }
-            */
+            
             
             contexo.SaveChanges();
 

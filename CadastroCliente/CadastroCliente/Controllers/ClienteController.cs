@@ -48,16 +48,28 @@ namespace CadastroCliente.Controllers
         }
         
         
-        public List<ClienteModel> RetornaListaClientes()//Função que retorna a lista de clientes
+        public IEnumerable<ClienteModel> RetornaListaClientes()//Função que retorna a lista de clientes
         {
-            
-            var listaClientes = new List<ClienteModel>();
 
-            var clientes = clienteContexto.Clientes.an
+            //clienteContexto = new ClienteContexto();
+
+            
+            //var listaClientes =  clienteContexto.Clientes.ToList();
+
+            using (var ctx = new ClienteContexto())
+            {
+                //var logger = _loggerFactory.CreateLogger("Debug");
+                //logger.LogInformation("Solicitou lista de eventos");
+                var teste = ctx.Clientes.ToList();
+                return teste;
+            }
             
             
             
             
+            
+            
+            //return listaClientes;
             /*
             listaClientes.Add(new ClienteModel
             {
@@ -78,7 +90,7 @@ namespace CadastroCliente.Controllers
             */
             
             
-            return listaClientes;
+            
         }
         
         
