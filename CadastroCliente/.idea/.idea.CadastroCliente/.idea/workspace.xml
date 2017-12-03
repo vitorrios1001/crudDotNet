@@ -14,53 +14,35 @@
       <file leaf-file-name="ClienteController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CadastroCliente/Controllers/ClienteController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="249">
+              <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
               <folding>
-                <marker date="1512310669865" expanded="true" signature="6:232" ph="..." />
-                <marker date="1512310669865" expanded="true" signature="271:2352" ph="{...}" />
-                <marker date="1512310669865" expanded="true" signature="321:2350" ph="{...}" />
-                <marker date="1512310669865" expanded="true" signature="447:494" ph="{...}" />
-                <marker date="1512310669865" expanded="true" signature="540:660" ph="{...}" />
-                <marker date="1512310669865" expanded="true" signature="708:773" ph="{...}" />
-                <marker date="1512310669865" expanded="true" signature="969:1103" ph="{...}" />
-                <marker date="1512310669865" expanded="true" signature="1225:2317" ph="{...}" />
-                <marker date="1512310669865" expanded="true" signature="1428:1677" ph="{...}" />
-                <marker date="1512310669865" expanded="true" signature="1459:1582" ph="/* var logger = _loggerFactory.CreateLogger(&quot;Debug&quot;); ... */" />
-                <marker date="1512310669865" expanded="true" signature="1804:2268" ph="/* listaClientes.Add(new ClienteModel ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClienteContexto.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CadastroCliente/Data/ClienteContexto.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
-              <folding>
-                <marker date="1512312602808" expanded="false" signature="6:80" ph="..." />
-                <marker date="1512312602808" expanded="true" signature="112:1565" ph="{...}" />
-                <marker date="1512312602808" expanded="true" signature="159:1563" ph="{...}" />
-                <marker date="1512312602808" expanded="true" signature="216:249" ph="{...}" />
-                <marker date="1512312602808" expanded="true" signature="348:368" ph="{...}" />
-                <marker date="1512312602808" expanded="true" signature="503:647" ph="{...}" />
-                <marker date="1512312602808" expanded="true" signature="820:1068" ph="{...}" />
-                <marker date="1512312602808" expanded="true" signature="1113:1548" ph="/* public ClienteContexto(DbContextOptions&lt;ClienteContexto&gt; options) : base(options) ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClienteRepositorio.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CadastroCliente/Models/ClienteRepositorio.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding>
-                <marker date="1512307440201" expanded="true" signature="6:64" ph="..." />
-                <marker date="1512307440201" expanded="true" signature="99:217" ph="{...}" />
-                <marker date="1512307440201" expanded="true" signature="137:215" ph="{...}" />
+                <marker date="1512328634759" expanded="false" signature="6:299" ph="..." />
+                <marker date="1512328634759" expanded="true" signature="338:4799" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="388:4797" ph="{...}" />
+                <marker date="1512328634759" expanded="false" signature="514:561" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="607:715" ph="{...}" />
+                <marker date="1512328634759" expanded="false" signature="763:828" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="1037:1365" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="1099:1228" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="1438:1786" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="1476:1539" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="1632:1695" ph="{...}" />
+                <marker date="1512328634759" expanded="false" signature="1813:2064" ph="/* public async Task&lt;IActionResult&gt; EditarCliente(int id) ... */" />
+                <marker date="1512328634759" expanded="true" signature="2233:2546" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="2289:2352" ph="{...}" />
+                <marker date="1512328634759" expanded="false" signature="2662:3028" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="2700:2763" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="2856:2919" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="3128:3727" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="3166:3229" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="3317:3380" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="3445:3576" ph="{...}" />
+                <marker date="1512328634759" expanded="false" signature="3849:4536" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="3912:3987" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="4049:4513" ph="/* listaClientes.Add(new ClienteModel ... */" />
+                <marker date="1512328634759" expanded="false" signature="4600:4782" ph="{...}" />
+                <marker date="1512328634759" expanded="true" signature="4662:4759" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -69,49 +51,18 @@
       <file leaf-file-name="ListaClientes.cshtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/ListaClientes.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
               <folding>
-                <marker date="1512255510999" expanded="true" signature="1:97" ph="@..." />
-                <marker date="1512255510999" expanded="true" signature="128:1070" ph="&lt;div.../&gt;" />
-                <marker date="1512255510999" expanded="true" signature="241:1063" ph="&lt;table.../&gt;" />
-                <marker date="1512255510999" expanded="true" signature="299:597" ph="&lt;th.../&gt;" />
-                <marker date="1512255510999" expanded="true" signature="606:1050" ph="&lt;tbody.../&gt;" />
-                <marker date="1512255510999" expanded="true" signature="622:1033" ph="@..." />
-                <marker date="1512255510999" expanded="true" signature="661:1033" ph="{...}" />
-                <marker date="1512255510999" expanded="true" signature="684:1023" ph="&lt;tr.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InicializaDB.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CadastroCliente/Data/InicializaDB.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-              <folding>
-                <marker date="1512312445010" expanded="false" signature="6:48" ph="..." />
-                <marker date="1512312445010" expanded="true" signature="80:1368" ph="{...}" />
-                <marker date="1512312445010" expanded="true" signature="112:1366" ph="{...}" />
-                <marker date="1512312445010" expanded="true" signature="182:1359" ph="{...}" />
-                <marker date="1512312445010" expanded="true" signature="292:346" ph="{...}" />
-                <marker date="1512312445010" expanded="true" signature="418:1152" ph="{...}" />
-                <marker date="1512312445010" expanded="true" signature="469:778" ph="{...}" />
-                <marker date="1512312445010" expanded="true" signature="829:1138" ph="{...}" />
-                <marker date="1512312445010" expanded="true" signature="1212:1287" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/Index.cshtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding>
-                <marker date="1512246710162" expanded="true" signature="2:30" ph="@..." />
+                <marker date="1512326743244" expanded="true" signature="21:117" ph="@..." />
+                <marker date="1512326743244" expanded="true" signature="148:1417" ph="&lt;div.../&gt;" />
+                <marker date="1512326743244" expanded="true" signature="273:1410" ph="&lt;table.../&gt;" />
+                <marker date="1512326743244" expanded="true" signature="331:667" ph="&lt;th.../&gt;" />
+                <marker date="1512326743244" expanded="true" signature="676:1397" ph="&lt;tbody.../&gt;" />
+                <marker date="1512326743244" expanded="true" signature="692:1380" ph="@..." />
+                <marker date="1512326743244" expanded="true" signature="731:1380" ph="{...}" />
+                <marker date="1512326743244" expanded="true" signature="754:1370" ph="&lt;tr.../&gt;" />
+                <marker date="1512326743244" expanded="true" signature="1092:1352" ph="&lt;td.../&gt;" />
               </folding>
             </state>
           </provider>
@@ -120,13 +71,45 @@
       <file leaf-file-name="CadastroCliente.cshtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/CadastroCliente.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="56">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
-                <marker date="1512259471932" expanded="true" signature="21:49" ph="@..." />
-                <marker date="1512259471932" expanded="true" signature="81:908" ph="&lt;div.../&gt;" />
-                <marker date="1512259471932" expanded="true" signature="109:886" ph="&lt;form.../&gt;" />
-                <marker date="1512259471932" expanded="true" signature="189:695" ph="&lt;div.../&gt;" />
+                <marker date="1512321368163" expanded="true" signature="21:49" ph="@..." />
+                <marker date="1512321368163" expanded="true" signature="81:865" ph="&lt;div.../&gt;" />
+                <marker date="1512321368163" expanded="true" signature="109:843" ph="&lt;form.../&gt;" />
+                <marker date="1512321368163" expanded="true" signature="192:652" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditarCliente.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/EditarCliente.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <marker date="1512329189212" expanded="true" signature="21:105" ph="@..." />
+                <marker date="1512329189212" expanded="true" signature="146:1115" ph="&lt;div.../&gt;" />
+                <marker date="1512329189212" expanded="true" signature="174:1108" ph="&lt;form.../&gt;" />
+                <marker date="1512329189212" expanded="true" signature="285:926" ph="&lt;tbody.../&gt;" />
+                <marker date="1512329189212" expanded="true" signature="301:909" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetalheCliente.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/DetalheCliente.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+              <folding>
+                <marker date="1512327153203" expanded="true" signature="21:106" ph="@..." />
+                <marker date="1512327153203" expanded="true" signature="138:979" ph="&lt;div.../&gt;" />
+                <marker date="1512327153203" expanded="true" signature="166:972" ph="&lt;form.../&gt;" />
+                <marker date="1512327153203" expanded="true" signature="272:787" ph="&lt;tbody.../&gt;" />
+                <marker date="1512327153203" expanded="true" signature="288:770" ph="&lt;div.../&gt;" />
               </folding>
             </state>
           </provider>
@@ -135,34 +118,37 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/ListaClientes.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CadastroCliente/Data/ClienteContexto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/CadastroCliente.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CadastroCliente/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CadastroCliente/Data/InicializaDB.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CadastroCliente/Models/ClienteModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CadastroCliente/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CadastroCliente/Controllers/ClienteController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CadastroCliente/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CadastroCliente/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CadastroCliente/Models/ClienteRepositorio.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/ListaClientes.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CadastroCliente/Data/ClienteContexto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/CadastroCliente.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CadastroCliente/Data/InicializaDB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CadastroCliente/Models/ClienteModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/EditarCliente.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/DetalheCliente.cshtml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CadastroCliente/Views/Cliente/Index.cshtml" />
-        <option value="$PROJECT_DIR$/CadastroCliente/Views/Cliente/ListaClientes.cshtml" />
-        <option value="$PROJECT_DIR$/CadastroCliente/Views/Cliente/CadastroCliente.cshtml" />
         <option value="$PROJECT_DIR$/CadastroCliente/Models/ClienteModel.cs" />
         <option value="$PROJECT_DIR$/CadastroCliente/Data/ClienteContexto.cse.cs" />
         <option value="$PROJECT_DIR$/CadastroCliente/Startup.cs" />
         <option value="$PROJECT_DIR$/CadastroCliente/appsettings.json" />
         <option value="$PROJECT_DIR$/CadastroCliente/Program.cs" />
         <option value="$PROJECT_DIR$/CadastroCliente/Models/ClienteRepositorio.cs" />
-        <option value="$PROJECT_DIR$/CadastroCliente/Controllers/ClienteController.cs" />
         <option value="$PROJECT_DIR$/CadastroCliente/Data/InicializaDB.cs" />
         <option value="$PROJECT_DIR$/CadastroCliente/Data/ClienteContexto.cs" />
+        <option value="$PROJECT_DIR$/CadastroCliente/Views/Cliente/CadastroCliente.cshtml" />
+        <option value="$PROJECT_DIR$/CadastroCliente/Views/Cliente/ListaClientes.cshtml" />
+        <option value="$PROJECT_DIR$/CadastroCliente/Views/Cliente/DetalheCliente.cshtml" />
+        <option value="$PROJECT_DIR$/CadastroCliente/Controllers/ClienteController.cs" />
+        <option value="$PROJECT_DIR$/CadastroCliente/Views/Cliente/EditarCliente.cshtml" />
       </list>
     </option>
   </component>
@@ -210,6 +196,12 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="CadastroCliente (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="CadastroCliente" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CadastroCliente (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CadastroCliente" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Data" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
@@ -217,6 +209,19 @@
               <item name="CadastroCliente (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="CadastroCliente" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CadastroCliente (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CadastroCliente" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CadastroCliente (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CadastroCliente" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Cliente" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -275,12 +280,12 @@
       <workItem from="1512156068485" duration="2091000" />
       <workItem from="1512244143257" duration="3367000" />
       <workItem from="1512253285768" duration="13252000" />
-      <workItem from="1512301881100" duration="10689000" />
+      <workItem from="1512301881100" duration="25205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29399000" />
+    <option name="totallyTimeSpent" value="43915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,21 +298,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-3" width="1319" height="771" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42772862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42772862" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18119788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17846608" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30973452" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23893805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -328,19 +334,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/CadastroCliente/Controllers/ClienteController.cs</url>
-          <line>58</line>
+          <line>88</line>
           <properties documentPath="$PROJECT_DIR$/CadastroCliente/Controllers/ClienteController.cs">
             <startOffsets>
-              <startOffset value="1389" />
+              <startOffset value="2242" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="1677" />
+              <endOffset value="2243" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -350,17 +356,32 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512310669865" expanded="true" signature="6:232" ph="..." />
-            <marker date="1512310669865" expanded="true" signature="271:2352" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="321:2350" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="447:494" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="540:660" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="708:773" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="969:1103" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="1225:2317" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="1428:1677" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="1459:1582" ph="/* var logger = _loggerFactory.CreateLogger(&quot;Debug&quot;); ... */" />
-            <marker date="1512310669865" expanded="true" signature="1804:2268" ph="/* listaClientes.Add(new ClienteModel ... */" />
+            <marker date="1512328634759" expanded="false" signature="6:299" ph="..." />
+            <marker date="1512328634759" expanded="true" signature="338:4799" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="388:4797" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="514:561" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="607:715" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="763:828" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1037:1365" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1099:1228" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1438:1786" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1476:1539" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1632:1695" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="1813:2064" ph="/* public async Task&lt;IActionResult&gt; EditarCliente(int id) ... */" />
+            <marker date="1512328634759" expanded="true" signature="2233:2546" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="2289:2352" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="2662:3028" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="2700:2763" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="2856:2919" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3128:3727" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3166:3229" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3317:3380" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3445:3576" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="3849:4536" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3912:3987" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="4049:4513" ph="/* listaClientes.Add(new ClienteModel ... */" />
+            <marker date="1512328634759" expanded="false" signature="4600:4782" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="4662:4759" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -405,14 +426,15 @@
         <state relative-caret-position="322">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
-            <marker date="1512255510999" expanded="true" signature="1:97" ph="@..." />
-            <marker date="1512255510999" expanded="true" signature="128:1070" ph="&lt;div.../&gt;" />
-            <marker date="1512255510999" expanded="true" signature="241:1063" ph="&lt;table.../&gt;" />
-            <marker date="1512255510999" expanded="true" signature="299:597" ph="&lt;th.../&gt;" />
-            <marker date="1512255510999" expanded="true" signature="606:1050" ph="&lt;tbody.../&gt;" />
-            <marker date="1512255510999" expanded="true" signature="622:1033" ph="@..." />
-            <marker date="1512255510999" expanded="true" signature="661:1033" ph="{...}" />
-            <marker date="1512255510999" expanded="true" signature="684:1023" ph="&lt;tr.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="21:117" ph="@..." />
+            <marker date="1512326743244" expanded="true" signature="148:1417" ph="&lt;div.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="273:1410" ph="&lt;table.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="331:667" ph="&lt;th.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="676:1397" ph="&lt;tbody.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="692:1380" ph="@..." />
+            <marker date="1512326743244" expanded="true" signature="731:1380" ph="{...}" />
+            <marker date="1512326743244" expanded="true" signature="754:1370" ph="&lt;tr.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="1092:1352" ph="&lt;td.../&gt;" />
           </folding>
         </state>
       </provider>
@@ -432,10 +454,10 @@
         <state relative-caret-position="154">
           <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
-            <marker date="1512259471932" expanded="true" signature="21:49" ph="@..." />
-            <marker date="1512259471932" expanded="true" signature="81:908" ph="&lt;div.../&gt;" />
-            <marker date="1512259471932" expanded="true" signature="109:886" ph="&lt;form.../&gt;" />
-            <marker date="1512259471932" expanded="true" signature="189:695" ph="&lt;div.../&gt;" />
+            <marker date="1512321368163" expanded="true" signature="21:49" ph="@..." />
+            <marker date="1512321368163" expanded="true" signature="81:865" ph="&lt;div.../&gt;" />
+            <marker date="1512321368163" expanded="true" signature="109:843" ph="&lt;form.../&gt;" />
+            <marker date="1512321368163" expanded="true" signature="192:652" ph="&lt;div.../&gt;" />
           </folding>
         </state>
       </provider>
@@ -456,17 +478,32 @@
         <state relative-caret-position="462">
           <caret line="33" column="96" lean-forward="false" selection-start-line="33" selection-start-column="96" selection-end-line="33" selection-end-column="96" />
           <folding>
-            <marker date="1512310669865" expanded="true" signature="6:232" ph="..." />
-            <marker date="1512310669865" expanded="true" signature="271:2352" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="321:2350" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="447:494" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="540:660" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="708:773" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="969:1103" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="1225:2317" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="1428:1677" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="1459:1582" ph="/* var logger = _loggerFactory.CreateLogger(&quot;Debug&quot;); ... */" />
-            <marker date="1512310669865" expanded="true" signature="1804:2268" ph="/* listaClientes.Add(new ClienteModel ... */" />
+            <marker date="1512328634759" expanded="false" signature="6:299" ph="..." />
+            <marker date="1512328634759" expanded="true" signature="338:4799" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="388:4797" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="514:561" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="607:715" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="763:828" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1037:1365" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1099:1228" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1438:1786" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1476:1539" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1632:1695" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="1813:2064" ph="/* public async Task&lt;IActionResult&gt; EditarCliente(int id) ... */" />
+            <marker date="1512328634759" expanded="true" signature="2233:2546" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="2289:2352" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="2662:3028" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="2700:2763" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="2856:2919" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3128:3727" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3166:3229" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3317:3380" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3445:3576" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="3849:4536" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3912:3987" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="4049:4513" ph="/* listaClientes.Add(new ClienteModel ... */" />
+            <marker date="1512328634759" expanded="false" signature="4600:4782" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="4662:4759" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -486,10 +523,10 @@
         <state relative-caret-position="336">
           <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
-            <marker date="1512259471932" expanded="true" signature="21:49" ph="@..." />
-            <marker date="1512259471932" expanded="true" signature="81:908" ph="&lt;div.../&gt;" />
-            <marker date="1512259471932" expanded="true" signature="109:886" ph="&lt;form.../&gt;" />
-            <marker date="1512259471932" expanded="true" signature="189:695" ph="&lt;div.../&gt;" />
+            <marker date="1512321368163" expanded="true" signature="21:49" ph="@..." />
+            <marker date="1512321368163" expanded="true" signature="81:865" ph="&lt;div.../&gt;" />
+            <marker date="1512321368163" expanded="true" signature="109:843" ph="&lt;form.../&gt;" />
+            <marker date="1512321368163" expanded="true" signature="192:652" ph="&lt;div.../&gt;" />
           </folding>
         </state>
       </provider>
@@ -510,14 +547,15 @@
         <state relative-caret-position="84">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <marker date="1512255510999" expanded="true" signature="1:97" ph="@..." />
-            <marker date="1512255510999" expanded="true" signature="128:1070" ph="&lt;div.../&gt;" />
-            <marker date="1512255510999" expanded="true" signature="241:1063" ph="&lt;table.../&gt;" />
-            <marker date="1512255510999" expanded="true" signature="299:597" ph="&lt;th.../&gt;" />
-            <marker date="1512255510999" expanded="true" signature="606:1050" ph="&lt;tbody.../&gt;" />
-            <marker date="1512255510999" expanded="true" signature="622:1033" ph="@..." />
-            <marker date="1512255510999" expanded="true" signature="661:1033" ph="{...}" />
-            <marker date="1512255510999" expanded="true" signature="684:1023" ph="&lt;tr.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="21:117" ph="@..." />
+            <marker date="1512326743244" expanded="true" signature="148:1417" ph="&lt;div.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="273:1410" ph="&lt;table.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="331:667" ph="&lt;th.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="676:1397" ph="&lt;tbody.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="692:1380" ph="@..." />
+            <marker date="1512326743244" expanded="true" signature="731:1380" ph="{...}" />
+            <marker date="1512326743244" expanded="true" signature="754:1370" ph="&lt;tr.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="1092:1352" ph="&lt;td.../&gt;" />
           </folding>
         </state>
       </provider>
@@ -534,17 +572,32 @@
         <state relative-caret-position="126">
           <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
-            <marker date="1512310669865" expanded="true" signature="6:232" ph="..." />
-            <marker date="1512310669865" expanded="true" signature="271:2352" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="321:2350" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="447:494" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="540:660" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="708:773" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="969:1103" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="1225:2317" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="1428:1677" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="1459:1582" ph="/* var logger = _loggerFactory.CreateLogger(&quot;Debug&quot;); ... */" />
-            <marker date="1512310669865" expanded="true" signature="1804:2268" ph="/* listaClientes.Add(new ClienteModel ... */" />
+            <marker date="1512328634759" expanded="false" signature="6:299" ph="..." />
+            <marker date="1512328634759" expanded="true" signature="338:4799" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="388:4797" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="514:561" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="607:715" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="763:828" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1037:1365" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1099:1228" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1438:1786" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1476:1539" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1632:1695" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="1813:2064" ph="/* public async Task&lt;IActionResult&gt; EditarCliente(int id) ... */" />
+            <marker date="1512328634759" expanded="true" signature="2233:2546" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="2289:2352" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="2662:3028" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="2700:2763" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="2856:2919" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3128:3727" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3166:3229" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3317:3380" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3445:3576" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="3849:4536" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3912:3987" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="4049:4513" ph="/* listaClientes.Add(new ClienteModel ... */" />
+            <marker date="1512328634759" expanded="false" signature="4600:4782" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="4662:4759" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -623,46 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/CadastroCliente.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <marker date="1512259471932" expanded="true" signature="21:49" ph="@..." />
-            <marker date="1512259471932" expanded="true" signature="81:908" ph="&lt;div.../&gt;" />
-            <marker date="1512259471932" expanded="true" signature="109:886" ph="&lt;form.../&gt;" />
-            <marker date="1512259471932" expanded="true" signature="189:695" ph="&lt;div.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <marker date="1512246710162" expanded="true" signature="2:30" ph="@..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/ListaClientes.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <marker date="1512255510999" expanded="true" signature="1:97" ph="@..." />
-            <marker date="1512255510999" expanded="true" signature="128:1070" ph="&lt;div.../&gt;" />
-            <marker date="1512255510999" expanded="true" signature="241:1063" ph="&lt;table.../&gt;" />
-            <marker date="1512255510999" expanded="true" signature="299:597" ph="&lt;th.../&gt;" />
-            <marker date="1512255510999" expanded="true" signature="606:1050" ph="&lt;tbody.../&gt;" />
-            <marker date="1512255510999" expanded="true" signature="622:1033" ph="@..." />
-            <marker date="1512255510999" expanded="true" signature="661:1033" ph="{...}" />
-            <marker date="1512255510999" expanded="true" signature="684:1023" ph="&lt;tr.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CadastroCliente/appsettings.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -671,18 +684,6 @@
             <marker date="1512264202071" expanded="true" signature="25:133" ph="{...}" />
             <marker date="1512264202071" expanded="true" signature="148:232" ph="{...}" />
             <marker date="1512264202071" expanded="true" signature="194:228" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CadastroCliente/Models/ClienteRepositorio.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <marker date="1512307440201" expanded="true" signature="6:64" ph="..." />
-            <marker date="1512307440201" expanded="true" signature="99:217" ph="{...}" />
-            <marker date="1512307440201" expanded="true" signature="137:215" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -705,6 +706,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <marker date="1512246710162" expanded="true" signature="2:30" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CadastroCliente/Models/ClienteRepositorio.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CadastroCliente/Data/ClienteContexto.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -722,22 +741,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/CadastroCliente.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1512321368163" expanded="true" signature="21:49" ph="@..." />
+            <marker date="1512321368163" expanded="true" signature="81:865" ph="&lt;div.../&gt;" />
+            <marker date="1512321368163" expanded="true" signature="109:843" ph="&lt;form.../&gt;" />
+            <marker date="1512321368163" expanded="true" signature="192:652" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/ListaClientes.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+          <folding>
+            <marker date="1512326743244" expanded="true" signature="21:117" ph="@..." />
+            <marker date="1512326743244" expanded="true" signature="148:1417" ph="&lt;div.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="273:1410" ph="&lt;table.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="331:667" ph="&lt;th.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="676:1397" ph="&lt;tbody.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="692:1380" ph="@..." />
+            <marker date="1512326743244" expanded="true" signature="731:1380" ph="{...}" />
+            <marker date="1512326743244" expanded="true" signature="754:1370" ph="&lt;tr.../&gt;" />
+            <marker date="1512326743244" expanded="true" signature="1092:1352" ph="&lt;td.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/DetalheCliente.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+          <folding>
+            <marker date="1512327153203" expanded="true" signature="21:106" ph="@..." />
+            <marker date="1512327153203" expanded="true" signature="138:979" ph="&lt;div.../&gt;" />
+            <marker date="1512327153203" expanded="true" signature="166:972" ph="&lt;form.../&gt;" />
+            <marker date="1512327153203" expanded="true" signature="272:787" ph="&lt;tbody.../&gt;" />
+            <marker date="1512327153203" expanded="true" signature="288:770" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CadastroCliente/Views/Cliente/EditarCliente.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <marker date="1512329189212" expanded="true" signature="21:105" ph="@..." />
+            <marker date="1512329189212" expanded="true" signature="146:1115" ph="&lt;div.../&gt;" />
+            <marker date="1512329189212" expanded="true" signature="174:1108" ph="&lt;form.../&gt;" />
+            <marker date="1512329189212" expanded="true" signature="285:926" ph="&lt;tbody.../&gt;" />
+            <marker date="1512329189212" expanded="true" signature="301:909" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CadastroCliente/Controllers/ClienteController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="249">
+          <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
           <folding>
-            <marker date="1512310669865" expanded="true" signature="6:232" ph="..." />
-            <marker date="1512310669865" expanded="true" signature="271:2352" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="321:2350" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="447:494" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="540:660" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="708:773" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="969:1103" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="1225:2317" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="1428:1677" ph="{...}" />
-            <marker date="1512310669865" expanded="true" signature="1459:1582" ph="/* var logger = _loggerFactory.CreateLogger(&quot;Debug&quot;); ... */" />
-            <marker date="1512310669865" expanded="true" signature="1804:2268" ph="/* listaClientes.Add(new ClienteModel ... */" />
+            <marker date="1512328634759" expanded="false" signature="6:299" ph="..." />
+            <marker date="1512328634759" expanded="true" signature="338:4799" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="388:4797" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="514:561" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="607:715" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="763:828" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1037:1365" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1099:1228" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1438:1786" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1476:1539" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="1632:1695" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="1813:2064" ph="/* public async Task&lt;IActionResult&gt; EditarCliente(int id) ... */" />
+            <marker date="1512328634759" expanded="true" signature="2233:2546" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="2289:2352" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="2662:3028" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="2700:2763" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="2856:2919" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3128:3727" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3166:3229" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3317:3380" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3445:3576" ph="{...}" />
+            <marker date="1512328634759" expanded="false" signature="3849:4536" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="3912:3987" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="4049:4513" ph="/* listaClientes.Add(new ClienteModel ... */" />
+            <marker date="1512328634759" expanded="false" signature="4600:4782" ph="{...}" />
+            <marker date="1512328634759" expanded="true" signature="4662:4759" ph="{...}" />
           </folding>
         </state>
       </provider>

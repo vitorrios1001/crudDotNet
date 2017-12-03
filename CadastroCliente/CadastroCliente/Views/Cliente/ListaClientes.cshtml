@@ -1,4 +1,5 @@
-﻿
+﻿@model ClienteModel
+
 @{
     Layout = "_Layout";
     var listaClientes = (List<ClienteModel>) ViewBag.ListaClientes;
@@ -8,7 +9,9 @@
 
 
 <div>
-    <a asp-controller="Cliente" asp-action="CadastroCliente" class="btn btn-primary" >Novo Cliente</a>
+    <a asp-controller="Cliente" asp-action="CadastroCliente" class="btn btn-primary" >Novo Cliente</a><br/>
+ 
+    
     <table class="table table-hover table-condensed">
         <th>
             <tr>
@@ -20,6 +23,7 @@
                 <td>Cidade</td>
                 <td>UF</td>
                 <td>Status</td>
+                <td>Propriedades</td>
             </tr>
         </th>
         <tbody>
@@ -34,6 +38,10 @@
                 <td>@cliente.Cidade</td>
                 <td>@cliente.Uf</td>
                 <td>@cliente.Status</td>
+                <td>
+                    <a asp-controller="Cliente" asp-action="EditarCliente" asp-route-id="@cliente.ID" > Editar </a>
+                    <a asp-controller="Cliente" asp-action="ExcluirCliente" asp-route-id="@cliente.ID" > Excluir </a>
+                </td>
             </tr>
         }
         </tbody>

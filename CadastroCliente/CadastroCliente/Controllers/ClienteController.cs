@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices.ComTypes;
+using System.Threading.Tasks;
 using CadastroCliente.Data;
 using CadastroCliente.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Remotion.Linq.Clauses;
 
 namespace CadastroCliente.Controllers
@@ -24,7 +26,7 @@ namespace CadastroCliente.Controllers
         public IActionResult ListaClientes()
         {
             ViewBag.ListaClientes = RetornaListaClientes();
-            
+
             return View();
         }
 
@@ -32,42 +34,132 @@ namespace CadastroCliente.Controllers
         {
             return View(new ClienteModel());
         }
-
-    
+   
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult InserirNovo(
+        public async Task<IActionResult> InserirCliente(
+            [Bind("Nome,Endereco,Bairro,CEP,Cidade,Uf,Status")]ClienteModel cliente)
+        {
+            using (var ctx = new ClienteContexto())
+            {
+                await ctx.Clientes.AddAsync(cliente);
+                await ctx.SaveChangesAsync();
+
+            }
+            ViewBag.ListaClientes = RetornaListaClientes();
+            
+            return RedirectToAction("ListaClientes");
+        }
+        
+        public async Task<IActionResult> EditarCliente(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            
+            var c = FiltraCliente((int)id).First();
+
+            if (c == null)
+            {
+                return NotFound();
+            }
+            
+            ViewBag.ClienteEdicao = c;
+
+            return View(c);
+        }
+        
+        
+        /*
+        public async Task<IActionResult> EditarCliente(int id)
+        {
+            ClienteModel cliente = FiltraCliente(id).First();
+
+            ViewBag.ClienteEdicao = cliente;
+            
+            return View(cliente);
+        }
+        */
+        
+        [HttpPost]
+        public async Task<IActionResult> EditarCliente(
             [Bind("Nome,Endereco,Bairro,CEP,Cidade,Uf,Status")]ClienteModel cliente)
         {
             
+            if (cliente == null)
+            {
+                return NotFound();
+            }
+
+            clienteContexto.Clientes.Update(cliente);
             
+            ViewBag.ListaClientes = RetornaListaClientes();
             
+            return View("ListaClientes");
+
+        }
+        
+        
+        
+        
+        //Rota
+        public async Task<IActionResult> ExcluirCliente(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
             
-            return RedirectToAction("ListaClientes",cliente);
+            var c = FiltraCliente((int)id).First();
+
+            if (c == null)
+            {
+                return NotFound();
+            }
+            
+            ViewBag.DetalheCliente = c;
+
+            return View("DetalheCliente",c);
+        }
+        //Função
+        [HttpPost]
+        public async Task<IActionResult> ExcluirCLiente(int id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            
+            var c = FiltraCliente(id).First();
+
+            if (c == null)
+            {
+                return NotFound();
+            }
+            
+            using (var ctx = new ClienteContexto())
+            {
+                ctx.Clientes.Remove(c);
+                await ctx.SaveChangesAsync();
+                
+            }
+            
+            ViewBag.ListaClientes = RetornaListaClientes();
+            
+            return RedirectToAction("ListaClientes");
+
         }
         
         
         public IEnumerable<ClienteModel> RetornaListaClientes()//Função que retorna a lista de clientes
         {
 
-            //clienteContexto = new ClienteContexto();
-
-            
-            //var listaClientes =  clienteContexto.Clientes.ToList();
-
             using (var ctx = new ClienteContexto())
             {
-                //var logger = _loggerFactory.CreateLogger("Debug");
-                //logger.LogInformation("Solicitou lista de eventos");
-                var teste = ctx.Clientes.ToList();
-                return teste;
+                return  ctx.Clientes.ToList();
             }
-            
-            
-            
-            
-            
             
             //return listaClientes;
             /*
@@ -89,11 +181,16 @@ namespace CadastroCliente.Controllers
             }
             */
             
-            
+        }
+
+        public IEnumerable<ClienteModel> FiltraCliente(int id)
+        {
+            using (var ctx = new ClienteContexto())
+            {
+                return ctx.Clientes.Where(c => c.ID == id).ToList();
+            }
             
         }
-        
-        
         
     }
 }

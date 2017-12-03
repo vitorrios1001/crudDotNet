@@ -1,0 +1,33 @@
+﻿@model ClienteModel
+
+@{
+    Layout = "_Layout";
+    var cliente = (ClienteModel) ViewBag.ClienteEdicao;
+}
+
+<h2>Atualizando dados de Cliente</h2>
+
+<div class="container">
+    <form asp-controller="Cliente" asp-action="EditarCliente" asp-route-cliente="@cliente" method="post" >
+        <tbody>
+        <div>
+            Nome:
+            <input asp-for="Nome" value="@cliente.Nome"/><br/>
+            CEP:
+            <input asp-for="CEP" value="@cliente.CEP"/><br/>
+            Endereço:
+            <input asp-for="Endereco" value="@cliente.Endereco"/><br/>
+            Bairro:
+            <input asp-for="Bairro" value="@cliente.Bairro"/><br/>
+            Cidade:
+            <input asp-for="Cidade" value="@cliente.Cidade"/><br/>
+            UF:
+            <input asp-for="Uf" value="@cliente.Uf"/><br/>
+            Status:
+            <input asp-for="Status" value="@cliente.Status"/><br/>
+        </div>
+        </tbody>
+        <a asp-controller="Cliente" asp-action="ListaClientes" class="btn btn-primary" >Voltar</a>
+        <button  type="submit" class="btn btn-sussec" >Salvar</button>
+    </form>
+</div>
