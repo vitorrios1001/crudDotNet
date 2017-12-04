@@ -16,26 +16,27 @@ namespace CadastroCliente.Controllers
 
         private ClienteContexto clienteContexto;
         
-        
         // GET
         public IActionResult Index()
         {
             return View();
         }
-
+        
+        //Rota Lista de Clientes
         public IActionResult ListaClientes()
         {
             ViewBag.ListaClientes = RetornaListaClientes();
 
             return View();
         }
-
+        
+        //Rota Inserir
         public IActionResult CadastroCliente()
         {
             return View(new ClienteModel());
         }
    
-        
+        //Função Inserir
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> InserirCliente(
@@ -52,6 +53,8 @@ namespace CadastroCliente.Controllers
             return RedirectToAction("ListaClientes");
         }
         
+        
+        //Rota Editar
         public async Task<IActionResult> EditarCliente(int? id)
         {
             if (id == null)
@@ -70,41 +73,39 @@ namespace CadastroCliente.Controllers
 
             return View(c);
         }
-        
-        
-        /*
-        public async Task<IActionResult> EditarCliente(int id)
-        {
-            ClienteModel cliente = FiltraCliente(id).First();
-
-            ViewBag.ClienteEdicao = cliente;
-            
-            return View(cliente);
-        }
-        */
-        
+        //Funcao Editar
         [HttpPost]
         public async Task<IActionResult> EditarCliente(
             [Bind("Nome,Endereco,Bairro,CEP,Cidade,Uf,Status")]ClienteModel cliente)
         {
+
+            var c = FiltraCliente(cliente.ID).First();
             
-            if (cliente == null)
+            if (c == null)
             {
                 return NotFound();
             }
+            
+            
+            
+            using (var ctx = new ClienteContexto())
+            {
+                ctx.Clientes.Update(c);
+                await ctx.SaveChangesAsync();
 
-            clienteContexto.Clientes.Update(cliente);
+            }
+            
             
             ViewBag.ListaClientes = RetornaListaClientes();
             
-            return View("ListaClientes");
+            return RedirectToAction("ListaClientes");
 
         }
         
         
         
         
-        //Rota
+        //Rota Excluir
         public async Task<IActionResult> ExcluirCliente(int? id)
         {
             if (id == null)
@@ -123,7 +124,7 @@ namespace CadastroCliente.Controllers
 
             return View("DetalheCliente",c);
         }
-        //Função
+        //Função Excluir
         [HttpPost]
         public async Task<IActionResult> ExcluirCLiente(int id)
         {
