@@ -42,15 +42,21 @@ namespace CadastroCliente.Controllers
         public async Task<IActionResult> InserirCliente(
             [Bind("Nome,Endereco,Bairro,CEP,Cidade,Uf,Status")]ClienteModel cliente)
         {
-            using (var ctx = new ClienteContexto())
-            {
-                await ctx.Clientes.AddAsync(cliente);
-                await ctx.SaveChangesAsync();
 
-            }
-            ViewBag.ListaClientes = RetornaListaClientes();
+            if (ModelState.IsValid)
+            {
+                using (var ctx = new ClienteContexto())
+                {
+                    await ctx.Clientes.AddAsync(cliente);
+                    await ctx.SaveChangesAsync();
+
+                }
+                ViewBag.ListaClientes = RetornaListaClientes();
             
-            return RedirectToAction("ListaClientes");
+                return RedirectToAction("ListaClientes");
+            }
+            return View("CadastroCliente", cliente);
+
         }
         
         
@@ -69,14 +75,12 @@ namespace CadastroCliente.Controllers
                 return NotFound();
             }
             
-            ViewBag.ClienteEdicao = c;
-
             return View(c);
         }
         //Funcao Editar
         [HttpPost]
         public async Task<IActionResult> EditarCliente(
-            [Bind("Nome,Endereco,Bairro,CEP,Cidade,Uf,Status")]ClienteModel cliente)
+            [Bind("ID,Nome,Endereco,Bairro,CEP,Cidade,Uf,Status")]ClienteModel cliente)
         {
 
             var c = FiltraCliente(cliente.ID).First();
@@ -85,20 +89,32 @@ namespace CadastroCliente.Controllers
             {
                 return NotFound();
             }
-            
-            
-            
-            using (var ctx = new ClienteContexto())
-            {
-                ctx.Clientes.Update(c);
-                await ctx.SaveChangesAsync();
 
+            if (ModelState.IsValid)
+            {
+                using (var ctx = new ClienteContexto())
+                {
+                    c.Nome = cliente.Nome;
+                    c.Bairro = cliente.Bairro;
+                    c.CEP = cliente.CEP;
+                    c.Cidade = cliente.Cidade;
+                    c.Endereco = cliente.Endereco;
+                    c.Status = cliente.Status;
+                    c.Uf = cliente.Uf;
+                
+                
+                    ctx.Clientes.Update(c);
+                    await ctx.SaveChangesAsync();
+
+                }
+            
+            
+                ViewBag.ListaClientes = RetornaListaClientes();
+            
+                return RedirectToAction("ListaClientes");
             }
-            
-            
-            ViewBag.ListaClientes = RetornaListaClientes();
-            
-            return RedirectToAction("ListaClientes");
+
+            return View(c);
 
         }
         

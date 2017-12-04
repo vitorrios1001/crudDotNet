@@ -2,29 +2,31 @@
 
 @{
     Layout = "_Layout";
-    var cliente = (ClienteModel) ViewBag.ClienteEdicao;
 }
 
 <h2>Atualizando dados de Cliente</h2>
 
+
+
 <div class="container">
     <form asp-controller="Cliente" asp-action="EditarCliente" method="post" >
         <tbody>
-        <div>
+        <div asp-validation-summary="All">
+            <input asp-for="ID" value="@Model.ID" style="display: none" /><br/>
             Nome:
-            <input asp-for="Nome" value="@cliente.Nome"/><br/>
+            <input asp-for="Nome" value="@Model.Nome"/><br/>
             CEP:
-            <input asp-for="CEP" value="@cliente.CEP"/><br/>
+            <input asp-for="CEP" value="@Model.CEP"/><br/>
             Endereço:
-            <input asp-for="Endereco" value="@cliente.Endereco"/><br/>
+            <input asp-for="Endereco" value="@Model.Endereco"/><br/>
             Bairro:
-            <input asp-for="Bairro" value="@cliente.Bairro"/><br/>
+            <input asp-for="Bairro" value="@Model.Bairro"/><br/>
             Cidade:
-            <input asp-for="Cidade" value="@cliente.Cidade"/><br/>
+            <input asp-for="Cidade" value="@Model.Cidade"/><br/>
             UF:
-            <input asp-for="Uf" value="@cliente.Uf"/><br/>
+            <input asp-for="Uf" value="@Model.Uf"/><br/>
             Status:
-            <input asp-for="Status" value="@cliente.Status"/><br/>
+            <input asp-for="Status" value="@Model.Status"/><br/>
         </div>
         </tbody>
         <a asp-controller="Cliente" asp-action="ListaClientes" class="btn btn-primary" >Voltar</a>
