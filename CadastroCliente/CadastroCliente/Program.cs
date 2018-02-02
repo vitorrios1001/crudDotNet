@@ -16,6 +16,7 @@ namespace CadastroCliente
     {
         public static void Main(string[] args)
         {
+            /*
             var host = BuildWebHost(args);
 
             using (var scope = host.Services.CreateScope())
@@ -33,7 +34,7 @@ namespace CadastroCliente
                 }
             }
 
-            host.Run();
+            host.Run();*/
             
             BuildWebHost(args).Run();
         }

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Runtime.InteropServices.ComTypes;
 using System.Threading.Tasks;
 using CadastroCliente.Data;
+using CadastroCliente.Data.Interface;
+using CadastroCliente.Data.Repository;
 using CadastroCliente.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -14,7 +16,7 @@ namespace CadastroCliente.Controllers
     public class ClienteController : Controller
     {
 
-        private ClienteContexto clienteContexto;
+        protected readonly ClienteRepository dbContextCliente;
         
         // GET
         public IActionResult Index()
@@ -25,7 +27,7 @@ namespace CadastroCliente.Controllers
         //Rota Lista de Clientes
         public IActionResult ListaClientes()
         {
-            ViewBag.ListaClientes = RetornaListaClientes();
+            ViewBag.ListaClientes = dbContextCliente.GetAll();
 
             return View();
         }
@@ -39,19 +41,15 @@ namespace CadastroCliente.Controllers
         //Função Inserir
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> InserirCliente(
+        public IActionResult InserirCliente(
             [Bind("Nome,Endereco,Bairro,CEP,Cidade,Uf,Status")]ClienteModel cliente)
         {
 
             if (ModelState.IsValid)
             {
-                using (var ctx = new ClienteContexto())
-                {
-                    await ctx.Clientes.AddAsync(cliente);
-                    await ctx.SaveChangesAsync();
-
-                }
-                ViewBag.ListaClientes = RetornaListaClientes();
+                dbContextCliente.Save(cliente);
+                
+                ViewBag.ListaClientes = dbContextCliente.GetAll();
             
                 return RedirectToAction("ListaClientes");
             }
@@ -61,14 +59,14 @@ namespace CadastroCliente.Controllers
         
         
         //Rota Editar
-        public async Task<IActionResult> EditarCliente(int? id)
+        public IActionResult EditarCliente(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
             
-            var c = FiltraCliente((int)id).First();
+            var c = dbContextCliente.GetById((int)id);
 
             if (c == null)
             {
@@ -79,11 +77,11 @@ namespace CadastroCliente.Controllers
         }
         //Funcao Editar
         [HttpPost]
-        public async Task<IActionResult> EditarCliente(
+        public IActionResult EditarCliente(
             [Bind("ID,Nome,Endereco,Bairro,CEP,Cidade,Uf,Status")]ClienteModel cliente)
         {
 
-            var c = FiltraCliente(cliente.ID).First();
+            var c = dbContextCliente.GetById(cliente.ID);
             
             if (c == null)
             {
@@ -92,24 +90,9 @@ namespace CadastroCliente.Controllers
 
             if (ModelState.IsValid)
             {
-                using (var ctx = new ClienteContexto())
-                {
-                    c.Nome = cliente.Nome;
-                    c.Bairro = cliente.Bairro;
-                    c.CEP = cliente.CEP;
-                    c.Cidade = cliente.Cidade;
-                    c.Endereco = cliente.Endereco;
-                    c.Status = cliente.Status;
-                    c.Uf = cliente.Uf;
-                
-                
-                    ctx.Clientes.Update(c);
-                    await ctx.SaveChangesAsync();
-
-                }
+                dbContextCliente.Save(cliente);            
             
-            
-                ViewBag.ListaClientes = RetornaListaClientes();
+                ViewBag.ListaClientes = dbContextCliente.GetAll();
             
                 return RedirectToAction("ListaClientes");
             }
@@ -117,96 +100,34 @@ namespace CadastroCliente.Controllers
             return View(c);
 
         }
-        
-        
-        
+               
         
         //Rota Excluir
-        public async Task<IActionResult> ExcluirCliente(int? id)
+        public IActionResult ExcluirCliente(int id)
         {
-            if (id == null)
-            {
+            if ((id == null) || (id == 0))
                 return NotFound();
-            }
-            
-            var c = FiltraCliente((int)id).First();
+                        
+            var c = dbContextCliente.GetById(id);
 
-            if (c == null)
-            {
+            if(c == null)
                 return NotFound();
-            }
-            
+
             ViewBag.DetalheCliente = c;
 
             return View("DetalheCliente",c);
         }
         //Função Excluir
         [HttpPost]
-        public async Task<IActionResult> ExcluirCLiente(int id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
+        public IActionResult ExcluirCLiente(int id)
+        {                 
             
-            var c = FiltraCliente(id).First();
-
-            if (c == null)
-            {
-                return NotFound();
-            }
+            dbContextCliente.Delete(id);
             
-            using (var ctx = new ClienteContexto())
-            {
-                ctx.Clientes.Remove(c);
-                await ctx.SaveChangesAsync();
-                
-            }
-            
-            ViewBag.ListaClientes = RetornaListaClientes();
+            ViewBag.ListaClientes = dbContextCliente.GetAll();
             
             return RedirectToAction("ListaClientes");
 
-        }
-        
-        
-        public IEnumerable<ClienteModel> RetornaListaClientes()//Função que retorna a lista de clientes
-        {
-
-            using (var ctx = new ClienteContexto())
-            {
-                return  ctx.Clientes.ToList();
-            }
-            
-            //return listaClientes;
-            /*
-            listaClientes.Add(new ClienteModel
-            {
-                ID = 1,
-                Nome = "Vitor",
-                Bairro = "Sul",
-                CEP = "75400000",
-                Cidade = "Inhumas",
-                Endereco = "Rua 02",
-                Uf = "GO",
-                Status = true
-            });
-            
-            if (cliente.ID != 0)
-            {
-                listaClientes.Add(cliente);
-            }
-            */
-            
-        }
-
-        public IEnumerable<ClienteModel> FiltraCliente(int id)
-        {
-            using (var ctx = new ClienteContexto())
-            {
-                return ctx.Clientes.Where(c => c.ID == id).ToList();
-            }
-            
         }
         
     }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CadastroCliente.Data;
+using CadastroCliente.Data.Interface;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -23,9 +24,10 @@ namespace CadastroCliente
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ClienteContexto>(options =>
-                options.UseMySql(Configuration.GetConnectionString("DefaultConnection"))
-            );
+            AppDbContext.ConnectionString = Configuration.GetConnectionString("");    
+
+            services.AddScoped(typeof(IRepository<>),typeof(RepositoryBase));
+            
             
             services.AddMvc();
             

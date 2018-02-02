@@ -18,3 +18,13 @@
 /home/vitor/projetosDosGit/crudDotNet/CadastroCliente/CadastroCliente/obj/Debug/netcoreapp2.0/CadastroCliente.AssemblyInfo.cs
 /home/vitor/projetosDosGit/crudDotNet/CadastroCliente/CadastroCliente/obj/Debug/netcoreapp2.0/CadastroCliente.dll
 /home/vitor/projetosDosGit/crudDotNet/CadastroCliente/CadastroCliente/obj/Debug/netcoreapp2.0/CadastroCliente.pdb
+/home/vitor/projetosDosGit/testandoNovaArquitetura/crudDotNet/CadastroCliente/CadastroCliente/bin/Debug/netcoreapp2.0/CadastroCliente.deps.json
+/home/vitor/projetosDosGit/testandoNovaArquitetura/crudDotNet/CadastroCliente/CadastroCliente/bin/Debug/netcoreapp2.0/CadastroCliente.runtimeconfig.json
+/home/vitor/projetosDosGit/testandoNovaArquitetura/crudDotNet/CadastroCliente/CadastroCliente/bin/Debug/netcoreapp2.0/CadastroCliente.runtimeconfig.dev.json
+/home/vitor/projetosDosGit/testandoNovaArquitetura/crudDotNet/CadastroCliente/CadastroCliente/bin/Debug/netcoreapp2.0/CadastroCliente.dll
+/home/vitor/projetosDosGit/testandoNovaArquitetura/crudDotNet/CadastroCliente/CadastroCliente/bin/Debug/netcoreapp2.0/CadastroCliente.pdb
+/home/vitor/projetosDosGit/testandoNovaArquitetura/crudDotNet/CadastroCliente/CadastroCliente/obj/Debug/netcoreapp2.0/CadastroCliente.csproj.CoreCompileInputs.cache
+/home/vitor/projetosDosGit/testandoNovaArquitetura/crudDotNet/CadastroCliente/CadastroCliente/obj/Debug/netcoreapp2.0/CadastroCliente.AssemblyInfoInputs.cache
+/home/vitor/projetosDosGit/testandoNovaArquitetura/crudDotNet/CadastroCliente/CadastroCliente/obj/Debug/netcoreapp2.0/CadastroCliente.AssemblyInfo.cs
+/home/vitor/projetosDosGit/testandoNovaArquitetura/crudDotNet/CadastroCliente/CadastroCliente/obj/Debug/netcoreapp2.0/CadastroCliente.dll
+/home/vitor/projetosDosGit/testandoNovaArquitetura/crudDotNet/CadastroCliente/CadastroCliente/obj/Debug/netcoreapp2.0/CadastroCliente.pdb
