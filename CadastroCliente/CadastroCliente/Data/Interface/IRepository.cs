@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace CadastroCliente.Data.Interface
 {
-    public class IRepository<T>
+    public interface IRepository<T> where T : class
     {
         T GetById(int id);
 

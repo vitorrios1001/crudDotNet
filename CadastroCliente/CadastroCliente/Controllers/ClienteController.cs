@@ -59,14 +59,14 @@ namespace CadastroCliente.Controllers
         
         
         //Rota Editar
-        public IActionResult EditarCliente(int? id)
+        public IActionResult EditarCliente(int id)
         {
-            if (id == null)
+            if (id == 0)
             {
                 return NotFound();
             }
             
-            var c = dbContextCliente.GetById((int)id);
+            var c = dbContextCliente.GetById(id);
 
             if (c == null)
             {
@@ -105,7 +105,7 @@ namespace CadastroCliente.Controllers
         //Rota Excluir
         public IActionResult ExcluirCliente(int id)
         {
-            if ((id == null) || (id == 0))
+            if (id == 0)
                 return NotFound();
                         
             var c = dbContextCliente.GetById(id);

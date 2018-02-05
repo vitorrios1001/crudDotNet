@@ -16,7 +16,7 @@ namespace CadastroCliente.Data.Repository
         public void Save(T obj)
         {
             var query = db.Set<T>().Find(obj);    
-
+            
             if(query == null)
             {
                 db.Add(obj);
